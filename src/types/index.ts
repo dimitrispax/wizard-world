@@ -37,8 +37,4 @@ export interface Trait {
   id: string
   name: string
 };
-
-
-export interface CurrentUserProps {
-
-}
+  
