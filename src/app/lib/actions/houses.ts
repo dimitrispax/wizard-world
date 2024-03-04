@@ -8,7 +8,7 @@ export const getHouses = async () => {
   try {
     const response = await fetch("https://wizard-world-api.herokuapp.com/houses")
     const houseData = await response.json();
-    await delay(2000);
+    // await delay(2000); // used to test the loading spinner.
     return houseData
   } catch (e) { 
     console.error(e)  
