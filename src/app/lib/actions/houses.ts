@@ -6,7 +6,7 @@ import {delay} from '../utils'
  */
 export const getHouses = async () => {
   try {
-    const response = await fetch("https://wizard-world-api.herokuapp.com/houses")
+    const response = await fetch("https://wizard-world-backend.onrender.com/houses")
     const houseData = await response.json();
     // await delay(2000); // used to test the loading spinner.
     return houseData
